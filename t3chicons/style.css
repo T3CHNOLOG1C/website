@@ -1,15 +1,15 @@
 @font-face {
   font-family: 't3chicons';
-  src:  url('fonts/t3chicons.eot?gu54hn');
-  src:  url('fonts/t3chicons.eot?gu54hn#iefix') format('embedded-opentype'),
-    url('fonts/t3chicons.ttf?gu54hn') format('truetype'),
-    url('fonts/t3chicons.woff?gu54hn') format('woff'),
-    url('fonts/t3chicons.svg?gu54hn#icomoon') format('svg');
+  src:  url('fonts/t3chicons.eot?ylqxrg');
+  src:  url('fonts/t3chicons.eot?ylqxrg#iefix') format('embedded-opentype'),
+    url('fonts/t3chicons.ttf?ylqxrg') format('truetype'),
+    url('fonts/t3chicons.woff?ylqxrg') format('woff'),
+    url('fonts/t3chicons.svg?ylqxrg#t3chicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="t3ch-"], [class*=" t3ch-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 't3chicons' !important;
   speak: none;
@@ -24,24 +24,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-twitter:before {
-  content: "\e900";
-}
-.icon-discord:before {
-  content: "\e901";
-}
-.icon-email:before {
-  content: "\e902";
-}
-.icon-back:before {
-  content: "\e903";
-}
-.icon-youtube:before {
+.t3ch-youtube:before {
   content: "\ea9d";
 }
-.icon-twitch:before {
+.t3ch-twitch:before {
   content: "\ea9f";
 }
-.icon-github:before {
+.t3ch-github:before {
   content: "\eab0";
+}
+.t3ch-twitter:before {
+  content: "\e900";
+}
+.t3ch-discord:before {
+  content: "\e901";
+}
+.t3ch-email:before {
+  content: "\e902";
+}
+.t3ch-back:before {
+  content: "\e903";
 }
