@@ -1,0 +1,19 @@
+html,body {
+    font-family: 'Rubik';
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F4FC8;
+    color: white;
+}
+
+.body-block {
+    width: 55vh;
+    height: 50vh
+}
+
+h1 {
+    font-weight: 200
+}
