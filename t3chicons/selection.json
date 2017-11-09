@@ -188,7 +188,7 @@
   ],
   "height": 1024,
   "metadata": {
-    "name": "icomoon"
+    "name": "t3chicons"
   },
   "preferences": {
     "showGlyphs": true,
@@ -198,7 +198,7 @@
     "fontPref": {
       "prefix": "icon-",
       "metadata": {
-        "fontFamily": "icomoon"
+        "fontFamily": "t3chicons"
       },
       "metrics": {
         "emSize": 1024,
