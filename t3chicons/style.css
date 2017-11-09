@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'danicons';
+  font-family: 't3chicons';
   src:
-    url('fonts/danicons.ttf?fg8b56') format('truetype'),
-    url('fonts/danicons.woff?fg8b56') format('woff'),
-    url('fonts/danicons.svg?fg8b56#danicons') format('svg');
+    url('fonts/t3chicons.ttf?fg8b56') format('truetype'),
+    url('fonts/t3chicons.woff?fg8b56') format('woff'),
+    url('fonts/t3chicons.svg?fg8b56#t3chicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'danicons' !important;
+  font-family: 't3chicons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -23,15 +23,15 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.dan-twitter:before {
+.t3ch-twitter:before {
   content: "\e900";
 }
-.dan-discord:before {
+.t3ch-discord:before {
   content: "\e901";
 }
-.dan-email:before {
+.t3ch-email:before {
   content: "\e902";
 }
-.dan-back:before {
+.t3ch-back:before {
   content: "\e903";
 }
