@@ -1,0 +1,48 @@
+:root {
+    --main-color: #009fb7
+}
+
+h3 {
+    font-weight: 300;
+    margin-bottom: -.5em;
+    font-size: 1.4em;
+}
+.buttonRight {
+    font-weight: 700;
+    font-size: 1em;
+    float: right;
+    margin-top: -.3em;
+    padding-right: 2.6em;
+}
+.buttonLeft {
+    font-weight: 300;
+    font-size: 1em;
+    margin-top: -.3em;
+}
+.button {
+    padding: 5px;
+    background-color: rgba(235,232,225, .18);  
+    transition-duration: 85ms;
+}
+
+.button::before {
+    transition-duration: 85ms;
+}
+
+.button:hover {
+    background-color: rgba(235,232,225, .42);  
+}
+
+.button:active {
+    background-color: rgba(235,232,225, 1);
+}
+
+.button:active::before {
+    color: var(--main-color)
+}
+
+.buttons {
+    position: relative;
+    bottom: 0;
+    float: right
+}
