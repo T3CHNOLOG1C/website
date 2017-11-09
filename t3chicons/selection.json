@@ -126,7 +126,7 @@
   ],
   "height": 1024,
   "metadata": {
-    "name": "danicons"
+    "name": "t3chicons"
   },
   "preferences": {
     "showGlyphs": true,
@@ -135,9 +135,9 @@
     "showQuickUse2": true,
     "showSVGs": true,
     "fontPref": {
-      "prefix": "dan-",
+      "prefix": "t3ch-",
       "metadata": {
-        "fontFamily": "danicons",
+        "fontFamily": "t3chicons",
         "majorVersion": 1,
         "minorVersion": 0
       },
